@@ -1,0 +1,27 @@
+.vertical-navigation{
+  padding: 35px 0 0;
+  .vertical-navigation-item{
+    margin-bottom: 20px;
+    &.vertical-navigation-item-active{
+      .vertical-navigation-item-icon{
+        color: #3B59F5;
+      }
+      .vertical-navigation-item-link{
+        font-weight: 600;
+        color: #000;
+      }
+    }
+    &.vertical-navigation-item-disabled{
+
+    }
+    .vertical-navigation-item-icon{
+      margin-right: 10px;
+    }
+    .vertical-navigation-item-link{
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #2B404B;
+    }
+  }
+}

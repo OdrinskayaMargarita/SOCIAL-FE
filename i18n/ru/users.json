@@ -1,0 +1,26 @@
+{
+    "feed": {
+        "peopleTitle": "Люди",
+        "nameSearchPlaceholder": "Поиск по имени",
+        "citySearchPlaceholder": "Страна, город",
+        "allMembers": "Все участники",
+        "name": "Имя",
+        "friends": "Друзья",
+        "posts": "Посты"
+    },
+    "tabs": {
+        "feed": "Лента",
+        "groups": "Группы",
+        "friends": "Друзья",
+        "articles": "Статьи",
+        "events": "Мероприятия",
+        "solutions": "Решения",
+        "contacts": "Контакты"
+    },
+    "header" : {
+        "member": "Участник",
+        "cooperator": "Кооператор",
+        "add": "В друзья",
+        "message": "Написать сообщение"
+    }
+}

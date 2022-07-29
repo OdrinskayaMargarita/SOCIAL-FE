@@ -1,0 +1,78 @@
+variables:
+  DOCKER_TLS_CERTDIR: ''
+
+stages:
+  - build
+  - deploy
+
+
+docker-build-prod:
+  image: docker:stable
+  stage: build
+  services:
+    - docker:19.03.5-dind
+  before_script:
+    - docker login -u "$DOCKERHUB_USER" -p "$DOCKERHUB_PASSWORD"
+  script:
+    - cat .env.prod
+    - rm .env
+    - cp .env.prod .env
+    - rm .env.prod
+    - docker build --pull --no-cache -t "$DOCKERHUB_USER"/social-fe:prod .
+    - docker push "$DOCKERHUB_USER"/social-fe:prod
+
+  only:
+    - prod
+
+docker-build-dev:
+  image: docker:stable
+  stage: build
+  services:
+    - docker:19.03.5-dind
+  before_script:
+    - docker login -u "$DOCKERHUB_USER" -p "$DOCKERHUB_PASSWORD"
+  script:
+    - docker build --pull --no-cache -t "$DOCKERHUB_USER"/social-fe:dev .
+    - docker push "$DOCKERHUB_USER"/social-fe:dev
+
+  only:
+    - master
+
+docker-deploy-dev:
+  image: node:12.15-alpine
+  stage: deploy
+
+  script:
+    - apk add --no-cache rsync openssh
+    - mkdir -p ~/.ssh
+    - echo "$SSH_PRIVATE_KEY_TGDAO_DEV" >> ~/.ssh/id_dsa
+    - chmod 600 ~/.ssh/id_dsa
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+    - "ssh $DEV_USER_SOCIAL@$DEV_IP_SOCIAL \"docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD \""
+    - "ssh $DEV_USER_SOCIAL@$DEV_IP_SOCIAL \"docker-compose -f $PROD_COMPOSE_PATH/docker-compose.yml stop frontend\""
+    - "ssh $DEV_USER_SOCIAL@$DEV_IP_SOCIAL \"docker-compose -f $PROD_COMPOSE_PATH/docker-compose.yml pull frontend\""
+    - "ssh $DEV_USER_SOCIAL@$DEV_IP_SOCIAL \"docker-compose -f $PROD_COMPOSE_PATH/docker-compose.yml up -d frontend\""
+
+  when: on_success
+  only:
+    - master
+
+
+docker-deploy-prod:
+  image: node:12.15-alpine
+  stage: deploy
+
+  script:
+    - apk add --no-cache rsync openssh
+    - mkdir -p ~/.ssh
+    - echo "$SSH_PRIVATE_KEY_TGDAO_DEV" >> ~/.ssh/id_dsa
+    - chmod 600 ~/.ssh/id_dsa
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+    - "ssh $PROD_USER_SOCIAL@$PROD_IP_SOCIAL \"docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD \""
+    - "ssh $PROD_USER_SOCIAL@$PROD_IP_SOCIAL \"docker-compose -f $PROD_COMPOSE_PATH/docker-compose.yml stop frontend\""
+    - "ssh $PROD_USER_SOCIAL@$PROD_IP_SOCIAL \"docker-compose -f $PROD_COMPOSE_PATH/docker-compose.yml pull frontend\""
+    - "ssh $PROD_USER_SOCIAL@$PROD_IP_SOCIAL \"docker-compose -f $PROD_COMPOSE_PATH/docker-compose.yml up -d frontend\""
+
+  when: on_success
+  only:
+    - prod

@@ -1,0 +1,27 @@
+.user-avatar{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  background: grey;
+
+  .user-avatar-image{
+    height: 100%;
+    width: 100%;
+    line-height: 0;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.avatar-image-without-url {
+  &:global(.ui.image) {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #dbdbdb !important;
+    height: 40px !important;
+    width: 40px !important;
+    margin-right: 14px !important;
+  }
+}

@@ -1,0 +1,93 @@
+{
+	"back": "Back",
+	"send": "Send",
+	"loading": "Loading...",
+	"continue": "Continue",
+	"submit": "Submit",
+	"edit": "Edit",
+	"field": {
+		"email": "Email",
+		"password": "Password",
+		"phoneNumber": "Phone Number",
+		"birthday": "Birthday",
+		"location": "Location",
+		"patronymic": "Patronymic",
+		"about": "About",
+		"city": "City",
+		"country": "Country"
+	},
+	"label": {
+		"firstName": "First Name",
+		"lastName": "Last Name"
+	},
+	"generic": {
+		"loading": "Loading...",
+		"continue": "Continue",
+		"submit": "Submit",
+		"email": "Email",
+		"firstName": "Name",
+		"lastName": "Second Name",
+		"partonymic": "Patronymic",
+		"about": "About",
+		"password": "Password",
+		"repeatPassword": "Re-enter password",
+		"loginFacebook": "Continue with Facebook",
+		"loginGoogle": "Continue with Google",
+		"loginApple": "Continue with Apple",
+		"writeComment": "Write a comment...",
+		"members": "Members",
+		"posts": "Posts",
+		"join": "Join",
+		"leave": "Leave",
+		"feeds": "Feeds",
+		"articles": "Articles",
+		"events": "Events",
+		"solutions": "Solutions",
+		"noData": "There is no data to show",
+		"na": "Not Available",
+		"messages": "Messages",
+		"search": "Search"
+	},
+	"errors": {
+		"invalidEmail": "Email should be valid",
+		"emailRequired": "Email is required",
+		"firstNameRequired": "First name is reqired",
+		"lastNameRequired": "Last name is reqired",
+		"passwordRequired": "Password is reqired",
+		"passwordNotValid": "Must contain minimum 8 Characters, One Uppercase, One Lowercase, One Number and one special case Character",
+		"passwordMissmatch": "Passwords must match",
+		"imageLimitExceeded": "Please upload an image up to 1MB"
+	},
+	"headers": {
+		"news": "News"
+	},
+	"titles": {
+		"resetPassword": "Tech Generation &gt; Reset password",
+		"news": "Tech Generation &gt; News",
+		"groups": "Tech Generation &gt; Groups"
+	},
+	"actions": {
+		"saveChanges": "Save changes",
+		"hideToOthers": "Hide to Others",
+		"confirm": "Confirm"
+	},
+	"registration": {},
+	"login": {
+		"dontHaveAccount": "Don't have an account? ",
+		"signUp": "Sign up",
+		"forgotPassword": "Forgot password?"
+	},
+	"forgotPassword": {
+		"resetPassword": "Reset password",
+		"setNewPassord": "Set New Password",
+		"newPassword": "New Password",
+		"enterCode": "Enter the code",
+		"digitCode": "6-digit confirmation code was just sent to the following email:",
+		"enterEmail": "Enter the email address associated with your TG account.",
+		"enterPassword": "We’ve reset your password, please choose a new one.",
+		"passwordChanged": "Your password has been changed, you can sign in using new password now"
+	},
+	"groups": {
+		"topGroups": "Top Groups"
+	}
+}

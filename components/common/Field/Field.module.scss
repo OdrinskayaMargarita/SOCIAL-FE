@@ -1,0 +1,37 @@
+.field-input{
+  border: none;
+  border-radius: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 40px;
+  width: 100%;
+  background: rgba(109, 144, 155, 0.1);
+  &:focus{
+    background: rgba(109, 144, 155, 0.2);
+    outline: none;
+  }
+}
+
+
+.widget-field-search{
+  height: 40px;
+  :global(.ui.input){
+    @extend .field-input;
+    :global(input){
+      padding: 0 0 0 35px;
+      border: none;
+      background-image: none;
+      background-color: transparent;
+    }
+  }
+  &:global(.ui.focus){
+    :global(.ui.input){
+      background: rgba(109, 144, 155, 0.2);
+    }
+  }
+  :global(.search.icon){
+    left: 15px;
+    right: auto !important;
+    width: 20px !important;
+  }
+}

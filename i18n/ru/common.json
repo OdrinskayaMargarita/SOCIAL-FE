@@ -1,0 +1,131 @@
+{
+	"generic": {
+		"loading": "Loading...",
+		"continue": "Continue",
+		"submit": "Submit",
+		"email": "Email",
+		"firstName": "Имя",
+		"lastName": "Фамилия",
+		"password": "Пароль",
+		"repeatPassword": "Подтвердите пароль",
+		"loginFacebook": "Continue with Facebook",
+		"loginGoogle": "Continue with Google",
+		"loginApple": "Continue with Apple",
+		"writeComment": "Write a comment...",
+		"members": "Members",
+		"posts": "Posts",
+		"join": "Join",
+		"leave": "Leave",
+		"feeds": "Feeds",
+		"articles": "Articles",
+		"events": "Events",
+		"solutions": "Solutions",
+		"noData": "There is no data to show",
+		"messages": "Messages",
+		"search": "Поиск"
+	},
+	"errors": {
+		"invalidEmail": "Пользователь под такой электронной почтой не зарегистрирован в системе",
+		"emailRequired": "Email обязательный",
+		"firstNameRequired": "Имя обязательное",
+		"lastNameRequired": "Фамилия обязательная",
+		"passwordRequired": "Пароль обязательный",
+		"passwordNotValid": "Должен содержать минимум 8 символов, один в верхнем регистре, один в нижнем регистре, одну цифру и один символ специального регистра",
+		"passwordMissmatch": "Пароли не совпадают",
+		"imageLimitExceeded": "Пожалуйста, загрузите изображение размером до 5MB",
+		"imageLimitExceeded": "Пожалуйста, загрузите изображение размером до 5MB"
+	},
+	"headers": {
+		"news": "News"
+	},
+	"titles": {
+		"createAccount": "Tech Generation &gt; Create account",
+		"resetPassword": "Tech Generation &gt; Reset password",
+		"singIn": "Tech Generation &gt; Sing in",
+		"news": "Tech Generation &gt; News",
+		"groups": "Tech Generation &gt; Groups"
+	},
+	"navigation": {
+		"social": "Social",
+		"about": "About",
+		"market": "Market",
+		"p2p": "P2P",
+		"becomeMember": "Become a member",
+		"login": "Sign In",
+		"soon": "Soon"
+	},
+	"sidebar": {
+		"news": "News feed",
+		"groups": "Groups",
+		"people": "People",
+		"articles": "Articles",
+		"events": "Events",
+		"solutions": "Solutions",
+		"notifications": "Notifications"
+	},
+	"registration": {
+		"createAccount": "Create account",
+		"haveAccount": "Already have an account? ",
+		"singIn": "Sign In",
+		"enterCode": "Enter the code",
+		"digitCode": "6-digit confirmation code was just sent to the following email:",
+		"haventCode": "Haven't received a code? ",
+		"sendAgain": "Send once again"
+	},
+	"actions": {
+		"saveChanges": "Сохранить изменения",
+		"hideToOthers": "Скрыть из профиля",
+		"confirm": "Подтвердить"
+	},
+	"forgotPassword": {
+		"resetPassword": "Reset password",
+		"setNewPassord": "Set New Password",
+		"newPassword": "Новый пароль",
+		"enterCode": "Enter the code",
+		"digitCode": "6-digit confirmation code was just sent to the following email:",
+		"enterEmail": "Enter the email address associated with your TG account.",
+		"enterPassword": "We’ve reset your password, please choose a new one.",
+		"passwordChanged": "Your password has been changed, you can sign in using new password now"
+	},
+
+	"groups": {
+		"topGroups": "Top Groups"
+	},
+
+	"field": {
+		"email": "Email",
+		"password": "Пароль",
+		"phoneNumber": "Номер телефона",
+		"birthday": "День рождения",
+		"location": "Местоположение",
+		"patronymic": "Отчество",
+		"about": "О себе",
+		"city": "Город",
+		"country": "Страна"
+	},
+
+	"profile": {
+		"title": "Мой профиль",
+		"stat": {
+			"tgScore": "TG score",
+			"friends": "Friends",
+			"followers": "Followers",
+			"following": "Following",
+			"articles": "Articles"
+		},
+		"navbar": {
+			"profile": "Мой профиль",
+			"messages": "Мои сообщения",
+			"referrals": "My referrals",
+			"wallet": "My wallet"
+		},
+		"tabs": {
+			"information": "Information",
+			"feed": "Feed",
+			"groups": "Groups",
+			"articles": "Articles",
+			"events": "Events",
+			"solutions": "Solutions"
+		}
+	}
+}

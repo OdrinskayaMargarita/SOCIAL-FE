@@ -1,0 +1,56 @@
+{
+  "join": "Join to Group",
+  "joinTable": "Вступить",
+  "leave": "Leave Group",
+  "leaveTable": "В группе",
+  "onlyAdmin": "Администрируемые мною",
+  "feed": {
+    "title": "Groups",
+    "pageTitle": "Groups",
+    "createGroup": "Create Group",
+    "topGroups": "Top Groups",
+    "allGroups": "All Groups",
+    "table": {
+      "name": "Name",
+      "members": "Members",
+      "posts": "Posts"
+    }
+  },
+  "item": {
+    "btn": {
+      "leave": "leave",
+      "join": "Join"
+    },
+    "tab": {
+      "feeds": "Feeds",
+      "members": "Members",
+      "articles": "Articles",
+      "events": "Events",
+      "solutions": "Solutions"
+    }
+  },
+  "tabs": {
+    "allGroups": "Все группы",
+    "myGroups": "Мои группы"
+  },
+  "keys": {
+    "name": "Название",
+    "members": "Участники",
+    "posts": "Посты"
+  },
+  "createModal": {
+    "title": "Создание группы",
+    "submit": "Создать группу",
+    "placeholders": {
+      "name": "Название группы",
+      "description": "Описание группы",
+      "country": "Выберите страну группы",
+      "city": "Город группы"
+    }
+  },
+  "editGroup": {
+    "title": "Редактирование группы",
+    "changeLogo": "Логотип профиля",
+    "changeLogoDescription": "Загрузите изображение в формате .PNG/.JPEG/.JPG размером не менее 800х800 пикселей. Ваше фото будут видеть все посетители сайта."
+  }
+}

@@ -1,0 +1,75 @@
+.header{
+  border-bottom: 1px solid rgba(109, 144, 155, 0.2);
+}
+.header-logo{
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  color: #141414;
+  text-transform: uppercase;
+}
+
+
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .header-menu{
+    display: flex;
+    flex-direction: row;
+    .header-menu-item,
+    .header-menu-item-link{
+      display: flex;
+      align-items: center;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .header-menu-item{
+      position: relative;
+      padding: 0 20px;
+      &.header-menu-item-active{
+        .header-menu-item-link{
+          font-weight: 600;
+          &:before{
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            margin-left: -25px;
+            content: "";
+            height: 4px;
+            width: 50px;
+            background-color: #3B59F5;
+          }
+        }
+      }
+      &.header-menu-item-disabled{
+        color: rgba(109, 144, 155, 0.4);
+      }
+      .header-menu-item-link{
+        position: relative;
+        padding: 28px 0;
+        &:hover{
+          color: #000;
+        }
+      }
+      .header-menu-item-alt{
+        position: relative;
+        top: -13px;
+        left: 4px;
+        font-weight: bold;
+        font-size: 8px;
+        letter-spacing: 0.11em;
+        color: #00C8D5;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .header-auth{
+    display: flex;
+  }
+}
+
+.become-btn {
+  margin-right: 47px;
+}

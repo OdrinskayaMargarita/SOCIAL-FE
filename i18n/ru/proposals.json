@@ -1,0 +1,18 @@
+
+{
+  "social": {
+    "title": "Предложения",
+    "pageTitle": "Предложения",
+    "create": "Создать"
+  },
+  "type": {
+    "improvement": "Улучшение",
+    "bug": "Ошибка"
+  },
+  "status": {
+    "new": "Новое",
+    "done": "Принято",
+    "under_consideration": "На рассмотрении",
+    "rejected": "Отклонено"
+  }
+}

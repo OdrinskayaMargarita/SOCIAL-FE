@@ -1,0 +1,74 @@
+{
+	"headerNav": {
+		"profile": "Profile",
+		"language": "Change language",
+		"logout": "Logout",
+		"cooperator": "Cooperator",
+		"member": "Member"
+	},
+	"title": "My profile",
+	"status": {
+		"online": "Online",
+		"offline": "Offline"
+	},
+	"stat": {
+		"tgScore": "TG score",
+		"friends": "Friends",
+		"followers": "Followers",
+		"following": "Following",
+		"articles": "Articles"
+	},
+	"navbar": {
+		"profile": "My Profile",
+		"messages": "My messages",
+		"referrals": "My referrals",
+		"wallet": "My wallet"
+	},
+	"tabs": {
+		"information": "Information",
+		"feed": "Feed",
+		"groups": "Groups",
+		"articles": "Articles",
+		"events": "Events",
+		"solutions": "Solutions",
+		"friends": "Friends",
+		"contacts": "Contacts"
+	},
+	"friends": {
+		"noFriends": "You got no friends yet",
+		"myFriends": "My friends",
+		"allFriends": "All friends",
+		"requestToFriends": "Request to friends",
+		"remove": "Decline",
+		"accept": "Accept",
+		"requesterDeclined": "Requester declined",
+		"recipientDeclined": "Recipient declined"
+	},
+	"actions": {
+		"edit": "Edit profile",
+		"save": "Save changes",
+		"uploadImage": "Upload Image",
+		"eraseImage": "Erase Image",
+		"addFriend": "Add Friend",
+		"removeFriend": "Remove Friend",
+		"writeMessage": "Write message"
+	},
+	"avatarEditor": {
+		"profileImage": "Profile image",
+		"description": "Please load image in .PNG/.JPEG/.JPG formats. Size should be at least 800*800px and up to 1MB. Your photo will be available for all site visitors."
+	},
+	"infoEditor": {
+		"main": "Main",
+		"contactInformation": "Contact information",
+		"city": "City",
+		"phone": "Phone number",
+		"email": "Email",
+		"partonymicDisclaimer": "- another users won't see your patronymic"
+	},
+	"contactsDescription": "You can edit your contact informtion and set visibility for other members any time. For this just use profile edit",
+	"friendsTab": {
+		"write": "Write",
+		"onlineFriends": "Only friends online",
+		"title": "My friends"
+	}
+}

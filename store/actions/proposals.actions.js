@@ -1,0 +1,2 @@
+export const FETCH_PROPOSALS = "FETCH_PROPOSALS";
+export const VOTE_PROPOSAL = "VOTE_PROPOSAL";

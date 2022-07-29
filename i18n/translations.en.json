@@ -1,0 +1,131 @@
+{
+  "generic": {
+    "loading": "Loading...",
+    "continue": "Continue",
+    "submit": "Submit",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "birthday": "Birthday",
+    "location": "Location",
+    "groups": "Groups",
+    "firstName": "Name",
+    "lastName": "Second Name",
+    "password": "Password",
+    "repeatPassword": "Re-enter password",
+    "loginFacebook": "Continue with Facebook",
+    "loginGoogle": "Continue with Google",
+    "loginApple": "Continue with Apple",
+    "writeComment": "Write a comment...",
+    "members": "Members",
+    "posts": "Posts",
+    "join": "Join",
+    "leave": "Leave",
+    "feeds": "Feeds",
+    "articles": "Articles",
+    "events": "Events",
+    "solutions": "Solutions"
+  },
+  "actions": {
+    "edit": "Edit",
+    "saveChanges": "Save changes",
+    "hideToOthers": "Hide to Others"
+  },
+  "errors": {
+    "invalidEmail": "Email should be valid",
+    "emailRequired": "Email is required",
+    "firstNameRequired": "First name is reqired",
+    "lastNameRequired": "Last name is reqired",
+    "passwordRequired": "Password is reqired",
+    "passwordMissmatch": "Passwords must match",
+    "phoneNumberRequired": "Phone Number is required",
+    "phoneNumberInvalid": "Phone number must be valid",
+    "birthdayIsRequired": "Birthday is required"
+  },
+  "headers": {
+    "news": "News"
+  },
+  "titles": {
+    "createAccount": "Tech Generation &gt; Create account",
+    "resetPassword": "Tech Generation &gt; Reset password",
+    "singIn": "Tech Generation &gt; Sing in",
+    "news": "Tech Generation &gt; News",
+    "groups": "Tech Generation &gt; Groups"
+  },
+  "navigation": {
+    "social": "Social",
+    "about": "About",
+    "market": "Market",
+    "p2p": "P2P",
+    "becomeMember": "Become a member",
+    "login": "Sign In",
+    "soon": "Soon"
+  },
+  "sidebar": {
+    "news": "News feed",
+    "groups": "Groups",
+    "people": "People",
+    "articles": "Articles",
+    "events": "Events",
+    "solutions": "Solutions",
+    "notifications": "Notifications"
+  },
+  "registration": {
+    "createAccount": "Create account",
+    "haveAccount": "Already have an account? ",
+    "singIn": "Sign In",
+    "enterCode": "Enter the code",
+    "digitCode": "6-digit confirmation code was just sent to the following email:",
+    "haventCode": "Haven't received a code? ",
+    "sendAgain": "Send once again",
+    "emailRegistered": "This email is already registered",
+    "invalidCode": "The entered code is incorrect"
+  },
+  "login": {
+    "signIn": "Sign In",
+    "dontHaveAccount": "Don't have an account? ",
+    "signUp": "Sign up",
+    "forgotPassword": "Forgot password?"
+  },
+  "forgotPassword": {
+    "resetPassword": "Reset password",
+    "setNewPassord": "Set New Passord",
+    "enterCode": "Enter the code",
+    "digitCode": "6-digit confirmation code was just sent to the following email:",
+    "enterEmail": "Enter the email address associated with your TG account.",
+    "enterPassword": "We’ve reset your password, please choose a new one.",
+    "passwordChanged": "Your password has been changed, you can sign in using new password now"
+  },
+  "groups": {
+    "topGroups": "Top Groups"
+  },
+  "profile": {
+    "title": "My profile",
+    "online": "Online",
+    "offline": "Offline",
+    "stat": {
+      "tgScore": "TG score",
+      "friends": "Friends",
+      "followers": "Followers",
+      "following": "Following",
+      "articles": "Articles"
+    },
+    "navbar": {
+      "profile": "My Profile",
+      "messages": "My messages",
+      "referrals": "My referrals",
+      "wallet": "My wallet"
+    },
+    "tabs": {
+      "information": "Information",
+      "feed": "Feed",
+      "groups": "Groups",
+      "articles": "Articles",
+      "events": "Events",
+      "solutions": "Solutions"
+    },
+    "dropdown": {
+      "profile": "Profile",
+      "logout": "Log out"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "navigation": {
+    "social": "Social",
+    "about": "About",
+    "market": "Market",
+    "p2p": "P2P",
+    "becomeMember": "Become a member",
+    "login": "Sign In",
+    "soon": "Soon"
+  }
+}

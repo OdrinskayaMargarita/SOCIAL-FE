@@ -1,0 +1,26 @@
+{
+  "sidebar": {
+    "news": "News feed",
+    "groups": "Groups",
+    "people": "People",
+    "articles": "Articles",
+    "events": "Events",
+    "solutions": "Solutions",
+    "notifications": "Notifications"
+  },
+  "record": {
+    "postedTo": "posted to",
+    "createdDate": "Created {{date}}",
+    "updatedDate": "Updated {{date}}",
+    "ago": "ago"
+  },
+  "createPost": {
+    "header": "Создать пост",
+    "placeholder": "Напишите что-нибудь...",
+    "uploadImage": "Загрузить фото",
+    "label": "Опубликовать в ",
+    "button": "Опубликовать",
+    "feed": "Моя лента",
+    "feedCreatePlaceholder": "Что у вас нового?"
+  }
+}

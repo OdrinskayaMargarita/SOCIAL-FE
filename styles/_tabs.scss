@@ -1,0 +1,38 @@
+.ui.secondary.pointing.menu{
+  border-bottom: 1px solid rgba(109, 144, 155, 0.2);
+  padding: 0 4px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  .item{
+    position: relative;
+    border: none;
+    margin: 0;
+    padding: 0 16px 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    transition: none;
+    &:not(.active){
+      color: #748893;
+    }
+    &.active{
+      font-weight: 600;
+      color: #000;
+      &:after{
+        display: block !important;
+        position: absolute;
+        content: "";
+        margin-left: -14px;
+        top: auto;
+        left: 50%;
+        bottom: -1px;
+        border-radius: 4px 4px 0 0;
+        height: 4px;
+        width: 28px;
+        background-color: #3B59F5;
+        transform: none !important;
+      }
+    }
+  }
+}

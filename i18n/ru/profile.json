@@ -1,0 +1,70 @@
+{
+  "headerNav": {
+    "profile": "Профиль",
+    "language": "Сменить язык",
+    "logout": "Выйти",
+    "cooperator": "Кооператор",
+    "member": "Участник"
+  },
+  "title": "My profile",
+  "status": {
+    "online": "Online",
+    "offline": "Offline"
+  },
+  "stat": {
+    "tgScore": "TG score",
+    "friends": "Friends",
+    "followers": "Followers",
+    "following": "Following",
+    "articles": "Articles"
+  },
+  "navbar": {
+    "profile": "Мой профиль",
+    "messages": "Мои сообщения",
+    "referrals": "My referrals",
+    "wallet": "My wallet"
+  },
+  "tabs": {
+    "information": "Information",
+    "feed": "Feed",
+    "groups": "Groups",
+    "articles": "Articles",
+    "events": "Events",
+    "solutions": "Solutions"
+  },
+  "actions": {
+    "edit": "Редактировать",
+    "save": "Сохранить",
+    "uploadImage": "Загрузить изображение",
+    "eraseImage": "Удалить изображение",
+    "addFriend": "Добавить в друзья",
+    "removeFriend": "Удалить из друзей",
+    "writeMessage": "Написать сообщение"
+  },
+  "avatarEditor": {
+    "profileImage": "Фото профиля",
+    "description": "Загрузите изображение в формате .PNG/.JPEG/.JPG размером не менее 800х800 пикселей. Ваше фото будут видеть все посетители сайта."
+  },
+  "friendsTab": {
+    "write": "Написать",
+    "onlineFriends": "Только друзья онлайн",
+    "title": "Мои друзья"
+  },
+  "friends": {
+    "noFriends": "You got no friends yet",
+    "myFriends": "Мои друзья",
+    "allFriends": "Все друзья",
+    "requestToFriends": "Запросы в друзья",
+    "onlineFriends": "Только друзья онлайн",
+    "requesterDeclined": "Отклонено заявителем",
+    "recipientDeclined": "Отклонено получателем"
+  },
+  "infoEditor": {
+    "main": "Основное",
+    "contactInformation": "Дополнительная информация",
+    "city": "Город",
+    "phone": "Номер телефона",
+    "email": "Email",
+    "partonymicDisclaimer": "- другие пользователи не будут видеть ваше отчество"
+  }
+}

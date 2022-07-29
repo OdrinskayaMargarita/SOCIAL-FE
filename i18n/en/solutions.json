@@ -1,0 +1,14 @@
+{
+    "social": {
+        "title": "Solutions",
+        "pageTitle": "Solutions",
+        "solutionDecision": "Solution is made"
+    },
+    "status": {
+        "VOTING_IN_PROGRESS": "VOTING IN PROGRESS",
+        "SOLUTION_NOT_FOUND": "SOLUTION NOT FOUND",
+        "PROPOSING_SOLUTIONS": "PROPOSING SOLUTIONS",
+        "SOLUTION_FOUND": "SOLUTION FOUND",
+        "CREATED": "CREATED"
+    }
+}

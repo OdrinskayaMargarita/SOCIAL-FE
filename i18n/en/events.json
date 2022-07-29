@@ -1,0 +1,14 @@
+{
+    "social": {
+        "title": "Events",
+        "pageTitle": "Events"
+    },
+    "create": {
+        "title": "Create event",
+        "titlePlaceholder": "Event title",
+        "startTime": "Start time",
+        "endTime": "End time",
+        "description": "Event description",
+        "address": "Event address"
+    }
+}

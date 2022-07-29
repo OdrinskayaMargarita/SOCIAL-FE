@@ -1,0 +1,6 @@
+export const GET_SOLUTIONS = "GET_SOLUTIONS";
+export const FETCH_SOLUTION_DATA = "FETCH_SOLUTION_DATA";
+export const CREATE_SOLUTION = "CREATE_SOLUTION";
+export const UPDATE_SOLUTION = "UPDATE_SOLUTION";
+export const ADD_SOLUTION = "ADD_SOLUTION";
+export const VOTE = "VOTE";

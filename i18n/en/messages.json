@@ -1,0 +1,9 @@
+{
+	"generic": {
+		"noData": "There are no active chats",
+		"myChats": "My chats",
+		"searchByName": "Search by name",
+		"typeMessage": "Enter message...",
+		"noMessage": "There are no message yet. Start converstion with your message"
+	}
+}

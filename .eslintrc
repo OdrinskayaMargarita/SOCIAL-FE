@@ -1,0 +1,78 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"parser": "babel-eslint",
+	"extends": [
+		"airbnb",
+		"plugin:react/recommended",
+		"plugin:jest/recommended",
+		"plugin:prettier/recommended",
+		"prettier/react"
+	],
+	"settings": {
+		"react": {
+			"version": "detect"
+		},
+		"import/resolver": {
+			"alias": {
+				"map": [
+					["components", "./components"],
+					["views", "./views"],
+					["utils", "./utils"],
+					["styles", "./styles"],
+					["store", "./store"]
+				],
+				"extensions": [".ts", ".js", ".jsx", ".json"]
+			}
+		}
+	},
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	},
+	"plugins": ["react", "react-hooks", "prettier", "jest"],
+	"rules": {
+		"react/prop-types": "off",
+		"import/no-unresolved": "off",
+		"no-unused-vars": "off",
+		"import/no-cycle": "off",
+		"react/no-array-index-key": "off",
+		"react/jsx-indent-props": ["error", "tab"],
+		"react/jsx-indent": ["error", "tab"],
+		"quotes": ["error", "double", "avoid-escape"], // resolves conflict with prettier
+		"react/react-in-jsx-scope": "error",
+		"react/jsx-filename-extension": "off",
+		"react/require-default-props": "off",
+		"react/no-children-prop": "off",
+		"react/jsx-one-expression-per-line": "off", // resolves conflict with prettier
+		"jsx-a11y/label-has-associated-control": [2, { "assert": "htmlFor", "depth": 5 }],
+		"react/jsx-props-no-spreading": "off",
+		"max-len": "off", // resolves conflict with prettier
+		"implicit-arrow-linebreak": "off", // resolves conflict with prettier
+		"import/no-extraneous-dependencies": "off",
+		"import/prefer-default-export": "off",
+		"no-tabs": "off", // resolves conflict with prettier
+		"linebreak-style": "off", // resolves conflict with prettier
+		"import/extensions": "off",
+		"template-curly-spacing": "off", // resolves conflict with prettier
+		"react/display-name": "off",
+		"global-require": "off",
+		"no-nested-ternary": "off",
+		"indent": "off", // resolves conflict with prettier
+		"prettier/prettier": [
+			"error",
+			{
+				"semi": true,
+				"useTabs": true,
+				"keySpacing": ["error", { "beforeColon": false, "afterColon": true }],
+				"trailingComma": "all",
+				"printWidth": 100
+			}
+		]
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "social": {
+    "title": "Proposals",
+    "pageTitle": "Proposals",
+    "create": "Create"
+  },
+  "type": {
+    "improvement": "Improvement",
+    "bug": "Bug"
+  },
+  "status": {
+    "new": "New",
+    "done": "Accepted",
+    "under_consideration": "Under consideration",
+    "rejected": "Rejected"
+  }
+}

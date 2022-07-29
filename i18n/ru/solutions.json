@@ -1,0 +1,14 @@
+{
+    "social": {
+        "title": "Solutions",
+        "pageTitle": "Solutions",
+        "solutionDecision": "Решение принято"
+    },
+    "status": {
+        "VOTING_IN_PROGRESS": "ГОЛОСОВАНИЕ В ПРОГРЕССЕ",
+        "SOLUTION_NOT_FOUND": "РЕШЕНИЕ НЕ ПРИНЯТО",
+        "PROPOSING_SOLUTIONS": "ПРЕДЛОЖЕНИЕ РЕШЕНИЙ",
+        "SOLUTION_FOUND": "РЕШЕНИЕ ПРИНЯТО",
+        "CREATED": "СОЗДАНО"
+    }
+}

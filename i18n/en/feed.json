@@ -1,0 +1,26 @@
+{
+  "sidebar": {
+    "news": "News feed",
+    "groups": "Groups",
+    "people": "People",
+    "articles": "Articles",
+    "events": "Events",
+    "solutions": "Solutions",
+    "notifications": "Notifications"
+  },
+  "record": {
+    "postedTo": "posted to",
+    "createdDate": "Created {{date}}",
+    "updatedDate": "Updated {{date}}",
+    "ago": "ago"
+  },
+  "createPost": {
+    "header": "Create post",
+    "placeholder": "Write something...",
+    "uploadImage": "Upload image",
+    "label": "Publish in ",
+    "button": "Publish",
+    "feed": "My feed",
+    "feedCreatePlaceholder": "Anything new?"
+  }
+}

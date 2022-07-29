@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noindex, nofollow" />
+	<title>Redirect ...</title>
+	<script type="text/javascript">
+		(function run() {
+			fetch("./versions.json").then(parseJson).then(findLatest).then(replaceUrl);
+		})();
+
+		function parseJson(res) {
+			 return res.json();
+		}
+
+		function findLatest(versions) {
+			return versions.reverse().find(isSemver) || "develop";
+		}
+
+		function isSemver(version) {
+			// based on: https://semver.org/#backusnaur-form-grammar-for-valid-semver-versions
+			return /^\d+\.\d+\.\d+(?:-[0-9A-Z-]+(?:\.[0-9A-Z-]+)*)?(?:\+[0-9A-Z-]+)?$/i.test(version)
+		}
+
+		function replaceUrl(version) {
+			window.location.replace(
+				window.location.origin + "/" +
+				version + "/" +
+				window.location.search
+			);
+		}
+	</script>
+</head>
+<body>
+	...Redirecting to latest version
+</body>
+</html>

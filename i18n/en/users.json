@@ -1,0 +1,26 @@
+{
+    "feed": {
+        "peopleTitle": "People",
+        "nameSearchPlaceholder": "Search by name",
+        "citySearchPlaceholder": "Country, city",
+        "allMembers": "All members",
+        "name": "Name",
+        "friends": "Friends",
+        "posts": "Posts"
+    },
+    "tabs": {
+        "feed": "News feed",
+        "groups": "Groups",
+        "friends": "Friends",
+        "articles": "Articles",
+        "events": "Events",
+        "solutions": "Solutions",
+        "contacts": "Contacts"
+    },
+    "header" : {
+        "member": "Member",
+        "cooperator": "Cooperator",
+        "add": "Add friend",
+        "message": "Send message"
+    }
+}

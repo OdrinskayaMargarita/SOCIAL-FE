@@ -1,0 +1,20 @@
+{
+    "social": {
+        "title": "Articles",
+        "pageTitle": "Articles",
+        "create": "Create"
+    },
+    "create": {
+        "title": "Create Article",
+        "cancel": "Cancel",
+        "save": "Save",
+        "titlePhoto": "Title photo",
+        "delete": "Delete",
+        "upload": "Upload image",
+        "placeholder": "In .PNG/.JPEG/.JPG format, at least 800x800 pixels in size and up to 1MB",
+        "titlePlaceholder": "Article title",
+        "text": "Article content",
+        "publish": "Publish in",
+        "type": "Type text..."
+    }
+}

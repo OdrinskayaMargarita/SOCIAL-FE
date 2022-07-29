@@ -1,0 +1,11 @@
+.next
+package-lock.json
+
+#node_modules
+node_modules/
+
+#env files
+.env*.local
+
+#mock files
+/.idea/
